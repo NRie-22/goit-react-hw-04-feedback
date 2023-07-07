@@ -1,0 +1,22 @@
+.list {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin-bottom: 5px;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.blue {
+  color: blue;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
